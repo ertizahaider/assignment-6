@@ -1,0 +1,361 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{}
+header{}
+.container{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 1200px;
+}
+header .left{
+	width: 18%;
+	float: left;
+	text-align: right;
+	background: blue;
+	color: white;
+	font-size: 24px;
+	padding: 0.46cm 0;
+	margin-right: 0;
+}
+.left p{}
+.center{
+    float: left;
+    width: 22%;
+    background: #ffffff;
+}
+.center{
+}
+.center ul{}
+.center  li{
+    list-style: none;
+    float: left;
+    color: #b2b2b2;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.center li i{
+    color: #b2b2b2;
+    background: #F6F6F6;
+    padding: 22.5px 18px;
+}
+.center li p{
+    margin-top: 17px;
+    text-transform: capitalize;
+}
+header .right{
+    width: 60%;
+    float: left;
+}
+nav{}
+nav ul{}
+nav ul li{
+    list-style: none;
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+    margin-top: 17px;
+}
+nav ul li a{
+    font-size: 18px;
+    margin-top: 17px;
+    color: blue;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+nav ul li a:active{
+	text-decoration: underline;
+}
+
+
+section{}
+.body{
+    background-repeat: no-repeat;
+    background-image: url(../img/bodybg.png);
+    height: 800px;
+    background-size: cover;
+    position: relative;
+    margin: 0 auto;
+}
+.relative{
+    /* background-repeat: no-repeat; */
+    /* background-image: url(../img/bodybg.png); */
+    /* height: 800px; */
+    /* background-size: cover; */
+    /* position: relative; */
+    /* margin: 0 auto; */
+}
+
+.relative {}
+.bodyleft{
+	position: absolute;
+	top: 50%;
+	left: 0%;
+}
+.bodyleft a{
+    font-size: 30px;
+    background: white;
+    padding: 10px 4px;
+}
+.bodyleft a i{
+    color: black;
+    text-align: center;
+}
+.bodyright{
+	position: absolute;
+	top: 50%;
+	left: 100%;
+	transform: translate(-100%,-0%);
+}
+.bodyright a{
+	    font-size: 30px;
+    background: white;
+    padding: 10px 4px;
+}
+.bodyright a i{
+	color: black;
+    text-align: center;
+}
+.bodycenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.bodycenter a{}
+.bodycenter h1{
+    text-align: center;
+    color: white;
+    font-size: 48px;
+}
+.bodycenter a i{}
+.bodybottom{
+}
+.botleft{
+    color: white;
+    float: left;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+.botleft a{
+    color: white;
+    background: blue;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.botleft a i{}
+.botright{position: absolute;top: 90%;left: 80%;}
+.botright p{
+    color: white;
+}
+.botright a{
+    color: blue;
+}
+
+
+
+
+.proin{
+    background: #fbf7f7;
+}
+.leftproin{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.leftproin img{}
+.rightproin{
+    float: left;
+    width: 50%;
+    position: relative;
+}
+.rightproin img{}
+.trips{
+    position: absolute;
+    top: 70%;
+    color: white;
+}
+.trips p{
+    background: red;
+    padding: 5px 10px;
+}
+.aftertrips{
+}
+.aftertrips p{}
+.tech{
+    position: absolute;
+    top: 70%;
+    color: white;
+}
+.tech p{
+    background: #101010;
+    padding: 5px 10px;
+}
+.tripsbottom{}
+.tripsbottom p{}
+.tripsbottom p a{
+    color: blue;
+}
+
+
+
+
+.gallery{}
+.largephoto{
+    background-image: url(../img/roadl.png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+.largephoto h1{
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.largephoto p{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-35%);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.largephoto .tripss{
+    position: absolute;
+    top: 85%;
+    left: 2%;
+    color: white;
+    transform: translate(-50%,-50%);
+}
+.tripss p{
+	background: red;
+    padding: 5px 10px
+}
+
+.box1{width: 33.33%;box-sizing: border-box;float: left;display: inline-block;position: relative;}
+.box1 img{}
+.nature{
+    position: absolute;
+    top: 70%;
+    color: white;
+}
+.nature p{
+    background: #79c958;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+
+
+.box2{
+    width: 33.33%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    display: inline-block;
+}
+.box2 img{}
+.people{
+    position: absolute;
+    top: 70%;
+    color: white;
+}
+.people p{
+    background: blue;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+
+.box3{width: 33.33%;box-sizing: border-box;float: left;display: inline-block;position: relative;}
+.box3 img{}
+
+
+.box4{width: 33.33%;box-sizing: border-box;float: right;display: inline-block;margin-top: -1px;position: relative;}
+.box4 img{}
+
+
+.box5{width: 33.33%;box-sizing: border-box;float: left;display: inline-block;position: relative;}
+.box5 img{}
+
+
+.box6{width: 33.33%;box-sizing: border-box;float: left;display: inline-block;position: relative;}
+.box6 img{}
+.fashion{
+    position: absolute;
+    top: 70%;
+    color: white;
+}
+.fashion p{
+    background: purple;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+
+.blue{
+    background-image: url(../img/footer.png);
+    height: 500px;
+    position: relative;
+}
+.heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.heading h1{
+    font-size: 48px;
+    color: white;
+}
+.heading p{
+    font-size: 24px;
+    color: white;
+}
+.bg{
+    position: absolute;
+    top: 64%;
+    left: 38%;
+}
+.liteblue{
+    background: #4874e2;
+    width: 480px;
+    height: 50px;
+    border: 1px solid #030398;
+    border-radius: 3%;
+    position: relative;
+}
+.signup{}
+.signup a{
+    position: absolute;
+    top: 3%;
+    left: 77%;
+    color: #1a54e7;
+    background: white;
+    padding: 15px 29px;
+    border-radius: 5px;
+    transform: translate(29%);
+}
+
+footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #efecec;
+}
+footer p{
+    text-align: center;
+    width: 600px;
+    margin-left: 321px;
+    color: #ababab;
+}
